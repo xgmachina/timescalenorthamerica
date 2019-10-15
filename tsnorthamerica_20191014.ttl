@@ -60,7 +60,7 @@ tsna:Ochoan
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
   rdfs:label "Ochoan Epoch"@en ;
-  owl:sameAs <http://dbpedia.org/resource/Ochoan> ;
+  rdfs:seeAlso <http://dbpedia.org/resource/Ochoan> ;
   skos:broader isc:Permain;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
@@ -217,7 +217,7 @@ tsna:Guadalupian
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
   rdfs:label "Guadalupian Epoch"@en ;
-  owl:sameAs <http://dbpedia.org/page/Category:Guadalupian> ;
+  rdfs:seeAlso <http://dbpedia.org/page/Category:Guadalupian> ;
   rdfs:seeAlso isc:Guadalupian ;
   skos:broader isc:Permian ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -579,7 +579,7 @@ tsna:Capitanian
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
   rdfs:label "Capitanian Epoch"@en ;
-  owl:sameAs <http://dbpedia.org/resource/Capitanian> ;
+  rdfs:seeAlso <http://dbpedia.org/resource/Capitanian> ;
   skos:broader tsna:Guadalupian ;
   skos:broaderTransitive isc:Permian ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -611,7 +611,7 @@ tsna:Wordian
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
   rdfs:label "Wordian Epoch"@en ;
-  owl:sameAs <http://dbpedia.org/resource/Wordian> ;
+  rdfs:seeAlso <http://dbpedia.org/resource/Wordian> ;
   skos:broader tsna:Guadalupian ;
   skos:broaderTransitive isc:Permian ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -643,7 +643,7 @@ tsna:Roadian
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
   rdfs:label "Roadian Epoch"@en ;
-  owl:sameAs <http://dbpedia.org/resource/Roadian> ;
+  rdfs:seeAlso <http://dbpedia.org/resource/Roadian> ;
   skos:broader tsna:Guadalupian ;
   skos:broaderTransitive isc:Permian ;
   skos:broaderTransitive isc:Paleozoic ;
@@ -767,7 +767,6 @@ tsna:Virgilian
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
   rdfs:label "Virgilian Epoch"@en ;
-  skos:broader tsna:isc ;
   skos:broaderTransitive isc:Carboniferous ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
@@ -798,7 +797,6 @@ tsna:Missourian
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
   rdfs:label "Missourian Epoch"@en ;
-  skos:broader tsna:isc ;
   skos:broaderTransitive isc:Carboniferous ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
@@ -829,7 +827,6 @@ tsna:Desmoinesian
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
   rdfs:label "Desmoinesian Epoch"@en ;
-  skos:broader tsna:isc ;
   skos:broaderTransitive isc:Carboniferous ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
@@ -860,7 +857,6 @@ tsna:Atokan
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
   rdfs:label "Atokan Epoch"@en ;
-  skos:broader tsna:isc ;
   skos:broaderTransitive isc:Carboniferous ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
@@ -891,7 +887,6 @@ tsna:Morrowan
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
   rdfs:label "Morrowan Epoch"@en ;
-  skos:broader tsna:isc ;
   skos:broaderTransitive isc:Carboniferous ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
@@ -922,7 +917,6 @@ tsna:Chesterian
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
   rdfs:label "Chesterian Epoch"@en ;
-  skos:broader tsna:isc ;
   skos:broaderTransitive isc:Carboniferous ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
@@ -953,7 +947,6 @@ tsna:Meramecian
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
   rdfs:label "Meramecian Epoch"@en ;
-  skos:broader tsna:isc ;
   skos:broaderTransitive isc:Carboniferous ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
@@ -984,7 +977,6 @@ tsna:Osagean
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
   rdfs:label "Osagean Epoch"@en ;
-  skos:broader tsna:isc ;
   skos:broaderTransitive isc:Carboniferous ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
@@ -1015,7 +1007,6 @@ tsna:Kinderhookian
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
   rdfs:label "Kinderhookian Epoch"@en ;
-  skos:broader tsna:isc ;
   skos:broaderTransitive isc:Carboniferous ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
@@ -1046,7 +1037,6 @@ tsna:Chatauquan
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
   rdfs:label "Chatauquan Epoch"@en ;
-  skos:broader tsna:isc ;
   skos:broaderTransitive isc:Devonian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
@@ -1077,7 +1067,6 @@ tsna:Senecan
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
   rdfs:label "Senecan Epoch"@en ;
-  skos:broader tsna:isc ;
   skos:broaderTransitive isc:Devonian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
@@ -1108,7 +1097,6 @@ tsna:Erian
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
   rdfs:label "Erian Epoch"@en ;
-  skos:broader tsna:isc ;
   skos:broaderTransitive isc:Devonian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
@@ -1139,7 +1127,6 @@ tsna:Ulsterian
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
   rdfs:label "Ulsterian Epoch"@en ;
-  skos:broader tsna:isc ;
   skos:broaderTransitive isc:Devonian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
@@ -1170,7 +1157,6 @@ tsna:Cayugan
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
   rdfs:label "Cayugan Epoch"@en ;
-  skos:broader tsna:isc ;
   skos:broaderTransitive isc:Silurian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
@@ -1201,7 +1187,6 @@ tsna:Niagaran
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
   rdfs:label "Niagaran Epoch"@en ;
-  skos:broader tsna:isc ;
   skos:broaderTransitive isc:Silurian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
@@ -1232,7 +1217,6 @@ tsna:Medinan
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
   rdfs:label "Medinan Epoch"@en ;
-  skos:broader tsna:isc ;
   skos:broaderTransitive isc:Silurian ;
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
@@ -1665,7 +1649,7 @@ tsna:Delamaran
   rdf:type skos:Concept ;
   rdf:type time:ProperInterval ;
   rdfs:label "Delamaran Epoch"@en ;
-  owl:sameAs <http://dbpedia.org/resource/Delamaran> ;
+  rdfs:seeAlso <http://dbpedia.org/resource/Delamaran> ;
   skos:broader tsna:Lincolnian ;
   skos:broaderTransitive isc:Cambrian ;
   skos:broaderTransitive isc:Paleozoic ;
