@@ -186,7 +186,7 @@ tsna:Coahulian
   skos:broaderTransitive isc:Mesozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
   skos:inScheme ts:tsna2019 ;
-  time:hasBeginning  isc:BaseCoahulian ;
+  time:hasBeginning  tsna:BaseCoahulian ;
   time:hasEnd isc:BaseComanchean ;
 .
 
@@ -450,7 +450,7 @@ tsna:Millardan
   skos:broaderTransitive isc:Paleozoic ;
   skos:broaderTransitive isc:Phanerozoic ;
   skos:inScheme ts:tsna2019 ;
-  time:hasBeginning  isc:BaseMillardan ;
+  time:hasBeginning  tsna:BaseMillardan ;
   time:hasEnd tsna:BaseIbexianTime ;
 .
 
@@ -562,3 +562,8 @@ tsna:BaseBegadeanTime
   time:hasTRS <http://resource.geosciml.org/classifier/cgi/geologicage/ma> ;
   time:numericPosition "541.0"^^xsd:decimal
 .
+
+
+
+#### stages ####
+
